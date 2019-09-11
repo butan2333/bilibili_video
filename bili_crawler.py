@@ -1,7 +1,6 @@
 from pymongo import MongoClient
 import requests
 import json 
-from lxml import etree
 
 class bili_crawer:
     def getList(self,url):
