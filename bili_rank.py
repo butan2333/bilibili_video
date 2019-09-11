@@ -54,14 +54,7 @@ class bili_rank:
                 5:self.dict_coin,
                 6:self.dict_danmaku,
             }
-            switcher2={
-                1:"浏览数",
-                2:'点赞数',
-                3:'收藏数',
-                4:'分享数',
-                5:'硬币数',
-                6:'弹幕数',
-            }
+            
             sorted_dict_r=sorted(switcher1.get(type_to_dispaly).items(),key=lambda item:item[1],reverse=True)
             name=[]
             fav_num=[]

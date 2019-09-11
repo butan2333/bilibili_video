@@ -10,6 +10,7 @@
     * pymongo 
     * ~~Selenium~~
     * requests
+    * matplotlib
   * MongoDB 4.2.0
   * ~~chromedriver(理论上任意版本，与自己的Chrome浏览器版本匹配)~~
 # 已完成工作
